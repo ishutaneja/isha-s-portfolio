@@ -47,6 +47,7 @@ const HeroSection = () => (
     <motion.h1 variants={fadeIn} className="text-5xl md:text-7xl font-bold font-heading leading-tight mb-6">
       Hi, I'm <span className="gradient-text">Isha Taneja</span>
       <br />MERN Stack Developer
+
     </motion.h1>
     <motion.p variants={fadeIn} className="text-lg md:text-xl text-[var(--color-text-muted)] max-w-2xl mb-10 leading-relaxed">
       I am a Frontend Developer specialized in React.js, recently expanding my skillset to the MERN stack.
