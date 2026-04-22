@@ -50,8 +50,7 @@ const HeroSection = () => (
 
     </motion.h1>
     <motion.p variants={fadeIn} className="text-lg md:text-xl text-[var(--color-text-muted)] max-w-2xl mb-10 leading-relaxed">
-      I am a Frontend Developer specialized in React.js, recently expanding my skillset to the MERN stack.
-      I am passionate about building responsive, high-performance full-stack web applications and am currently seeking MERN Stack opportunities.
+     Passionate about building scalable, high-performance web applications with modern technologies. Focused on creating seamless user experiences and robust backend systems.
     </motion.p>
 
     <motion.div variants={fadeIn} className="flex flex-wrap gap-4">
@@ -202,11 +201,41 @@ const ProjectsSection = () => {
     },
     {
       title: "Rent2Lease",
-      tags: ["HTML", "CSS", "PHP"],
+      tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
       desc: [
         "Developed a property rental website that helps users find homes for rent.",
         "Designed pages for browsing properties with details like price and amenities.",
         "Implemented features for adding and managing property listings."
+      ]
+    },
+    {
+      title: "VerShip",
+      tags: ["React.js", "Node.js", "MongoDB"],
+      desc: [
+        "Built a cross-border shipping platform for sending orders from one country to another.",
+        "Designed intuitive UI for tracking international shipments in real-time.",
+        "Implemented country-to-country logistics flow with customs and delivery estimations.",
+        "Developed order management dashboard for seamless cross-border transactions."
+      ]
+    },
+    {
+      title: "1Night",
+      tags: ["React.js", "Express.js", "REST APIs"],
+      desc: [
+        "Developed a companion booking platform for spending one night with a desired gender partner — male, female, or transgender.",
+        "Built user-friendly profiles and search filters for browsing available companions.",
+        "Implemented secure booking flow with scheduling, confirmation, and payment integration.",
+        "Designed inclusive and modern UI to ensure a safe and welcoming user experience."
+      ]
+    },
+    {
+      title: "RideJoy",
+      tags: ["React.js", "Tailwind CSS", "Node.js"],
+      desc: [
+        "Created a horse ride booking platform for users to discover and reserve rides.",
+        "Designed listing pages with horse details, ride duration, pricing, and availability.",
+        "Implemented a booking system with date/time selection and instant confirmation.",
+        "Optimized for mobile to let users book rides on the go from any location."
       ]
     }
   ];
