@@ -178,65 +178,35 @@ const SkillsSection = () => {
 };
 
 const ProjectsSection = () => {
-  const projects = [
-    {
-      title: "Mind & Mom",
-      tags: ["React.js", "Responsive Design"],
-      desc: [
-        "A platform connecting users with health and wellness services.",
-        "Implemented responsive UI and integrated external APIs."
-      ],
-      link: "https://mindandmom.com/"
-    },
-    {
-      title: "TALD",
-      tags: ["React.js", "Frontend"],
-      desc: [
-        "A platform for finding and hiring top architects and designers.",
-        "Built a sleek, modern UI with search and filtering capabilities."
-      ],
-      link: "https://www.tald.co/"
-    },
-    {
-      title: "Rent2Lease",
-      tags: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
-      desc: [
-        "Developed a property rental website that helps users find homes for rent.",
-        "Designed pages for browsing properties with details like price and amenities.",
-        "Implemented features for adding and managing property listings."
-      ]
-    },
-    {
-      title: "VerShip",
-      tags: ["React.js", "Node.js", "MongoDB"],
-      desc: [
-        "Built a cross-border shipping platform for sending orders from one country to another.",
-        "Designed intuitive UI for tracking international shipments in real-time.",
-        "Implemented country-to-country logistics flow with customs and delivery estimations.",
-        "Developed order management dashboard for seamless cross-border transactions."
-      ]
-    },
-    {
-      title: "1Night",
-      tags: ["React.js", "Express.js", "REST APIs"],
-      desc: [
-        "Developed a companion booking platform for spending one night with a desired gender partner — male, female, or transgender.",
-        "Built user-friendly profiles and search filters for browsing available companions.",
-        "Implemented secure booking flow with scheduling, confirmation, and payment integration.",
-        "Designed inclusive and modern UI to ensure a safe and welcoming user experience."
-      ]
-    },
-    {
-      title: "RideJoy",
-      tags: ["React.js", "Tailwind CSS", "Node.js"],
-      desc: [
-        "Created a horse ride booking platform for users to discover and reserve rides.",
-        "Designed listing pages with horse details, ride duration, pricing, and availability.",
-        "Implemented a booking system with date/time selection and instant confirmation.",
-        "Optimized for mobile to let users book rides on the go from any location."
-      ]
-    }
-  ];
+    const projects = [
+      {
+        title: "Mind & Mom",
+        tags: ["React.js", "Responsive Design", "Node.js", "MongoDB", "Express.js"],
+        desc: [
+          "A platform connecting users with health and wellness services.",
+          "Implemented responsive UI and integrated external APIs."
+        ],
+        link: "https://mindandmom.com/"
+      },
+      {
+        title: "TALD",
+        tags: ["React.js", "Frontend", "Node.js", "MongoDB", "Express.js"],
+        desc: [
+          "A platform for finding and hiring top architects and designers.",
+          "Built a sleek, modern UI with search and filtering capabilities."
+        ],
+        link: "https://www.tald.co/"
+      },
+      {
+        title: "Eatigo",
+        tags: ["React.js", "Booking", "Node.js", "MongoDB", "Express.js"],
+        desc: [
+          "A platform for discovering restaurant reservations and booking tables.",
+          "Integrated location-based search and real-time availability."
+        ],
+        link: "https://eatigo.com/en"
+      }
+    ];
 
   return (
     <motion.section
