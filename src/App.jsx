@@ -180,24 +180,22 @@ const SkillsSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Cuddle Link",
+      title: "Mind & Mom",
       tags: ["React.js", "Responsive Design"],
       desc: [
-        "Built the frontend for a platform allowing users to apply for cuddle sessions.",
-        "Designed clean, user-friendly pages making browsing and booking simple.",
-        "Implemented forms and interactive features to streamline application process.",
-        "Improved responsiveness and performance for mobile and desktop."
-      ]
+        "A platform connecting users with health and wellness services.",
+        "Implemented responsive UI and integrated external APIs."
+      ],
+      link: "https://mindandmom.com/"
     },
     {
-      title: "Where is my Wrench",
+      title: "TALD",
       tags: ["React.js", "Frontend"],
       desc: [
-        "Built a platform that helps users find and rent agriculture equipment.",
-        "Designed search and listing pages so farmers can easily browse tools.",
-        "Implemented forms for rental listings with price, availability, and location.",
-        "Optimized app for fast loading and mobile-friendly access in rural areas."
-      ]
+        "A platform for finding and hiring top architects and designers.",
+        "Built a sleek, modern UI with search and filtering capabilities."
+      ],
+      link: "https://www.tald.co/"
     },
     {
       title: "Rent2Lease",
@@ -253,7 +251,7 @@ const ProjectsSection = () => {
       </motion.h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
-          <motion.div key={index} variants={fadeIn} className="glass-card rounded-2xl overflow-hidden group flex flex-col">
+          <motion.div key={index} variants={fadeIn} className="glass-card rounded-2xl overflow-hidden group flex flex-col cursor-pointer" whileHover={{ scale: 1.02 }} onClick={() => project.link && window.open(project.link, "_blank")}>
             <div className="h-48 bg-[var(--color-dark-lighter)] relative overflow-hidden flex items-center justify-center p-6">
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-primary)]/20 to-[var(--color-accent)]/20 mix-blend-overlay group-hover:scale-110 transition-transform duration-500"></div>
               <h3 className="text-3xl font-heading font-bold text-white/50 group-hover:text-white transition-colors z-10 text-center">{project.title}</h3>
